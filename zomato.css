@@ -1,0 +1,781 @@
+ 
+
+*{
+   box-sizing: border-box;
+   padding: 0%;
+   margin: 0%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: white;
+   border: none;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+   
+}
+
+.head{
+
+   height:420px;
+   width: 100%;
+   background-image: url(./resources/Zomato-Background-Image.webp);
+
+}
+
+.navbar{ 
+
+   height: 72px;
+   width: 97%;
+   margin-left: 20px;
+   margin-right: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.bar1{
+   width: 100%;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content:space-evenly;
+   margin-top: 10px;
+
+}
+
+.GetAppbtn{
+   height: 40px;
+   width: 900px;
+   padding-left: 90px;
+   font-size: 14px;
+   
+
+}
+
+.Group{
+   height: 40px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-evenly;
+   margin-left: 50px;
+   margin-right: 90px;
+}
+
+.InvesterReltn{
+   font-stretch: extra-expanded;
+   height: 40px;
+   width: 166.83px;
+   font-size: 20px;
+
+}
+
+.AddRestaurant{
+   font-stretch: extra-expanded;
+   height: 40px;
+   width: 144.66px;
+   font-size: 20px;
+
+}
+
+.login{
+   font-stretch: extra-expanded;
+   height: 40px;
+   width: 67.89px;
+   font-size: 20px;
+
+}
+
+.SignUp{
+   font-stretch: extra-expanded;
+   height: 40px;
+   width: 79.39px;
+   font-size: 20px;
+   
+
+}
+
+.hero{
+   height: 222px;
+   display:flex;
+   flex-direction:column ;
+   align-items:center;   
+   justify-content:;
+   padding-top: 30px;
+   width: 100%;
+}
+
+.text{
+   height: 48px;
+   font-size: 36px;
+   margin-top: 30px;
+}
+
+.search {
+   background-color: white;
+   width: 777px;
+   height: 54px;
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   margin: 0px;
+   border: none;
+   border-radius: 0.8rem;
+   
+}
+
+
+.search input{
+   width: 176px;
+   height: 21px;
+   margin: 6px;
+   color: black;
+   outline: none;
+   font-weight: 100px;
+} 
+
+#LocationSymbol{
+   height: 18px;
+   width: 18px;
+   margin-left: 8px;
+}
+
+
+.vl{
+   height: 20px;
+   width: 2px;
+   color: grey;
+   margin-left: 10px;
+
+}
+
+#SearchSymbol{
+   height: 18px;
+   width: 18px;
+   margin-left: 15px;
+   color: rgba(128, 128, 128, 0.425);
+}
+
+#input2{
+   color: black;
+   border-color: transparent;
+   outline: none;
+   width: 482px;
+   margin-left: 20px;
+}
+
+.search select{
+   color: black;
+   outline: none;
+}
+
+
+.services{
+margin-top: 40px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+
+.orderonline{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 359px;
+   width: auto;
+}
+
+.description{
+   height: 84px;
+   width: 350.42px;
+   margin: 15px;
+   border-style: solid;
+   border-color:rgb(232, 232, 232);
+   border-width: 1px;
+   border-bottom-left-radius: 1.2rem;
+   border-bottom-right-radius: 1.2rem;
+   padding: 15px;
+   margin-top: 0px;
+}
+
+.orderonline h3{
+   color: rgb(54, 54, 54);
+   font-size: 20px;
+}
+
+#SubContent1{
+   margin-top: 10px;
+   color: rgb(79, 79, 79);
+   font-size: 16px;
+}
+
+.dining{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+   height: 359px;
+   width: auto;
+   
+}
+
+
+
+.dining h3{
+   color: rgb(54, 54, 54);
+   font-size: 20px;
+}
+
+#SubContent2{
+   margin-top: 10px;
+   color: rgb(79, 79, 79);
+   font-size: 16px;
+}
+
+.Nightlife{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 359px;
+   width: auto;
+   
+}
+
+.Nightlife h3{
+   color: rgb(54, 54, 54);
+   font-size: 20px;
+}
+
+#SubContent3{
+   margin-top: 10px;
+   color: rgb(79, 79, 79);
+   font-size: 16px;
+}
+
+.ServiceImg{
+   border-top-right-radius: 1.6rem;
+   border-top-left-radius: 1.6rem;
+}
+
+.collections h1{
+   color: black;
+   font-stretch: extra-expanded;
+   font-size: 36px;
+   margin-left: 100px;
+}
+
+
+.subtext{
+   width: 100%;
+   height: 25px;
+   font-size: 18px;
+   color: rgb(54, 54, 54);
+   font-display: stretch;
+   display: flex;
+   align-items: center;
+   justify-content:space-around;
+}
+
+.subtext select{
+   color: rgb(255, 126, 139);
+   user-select: auto;
+   outline: none;
+   border-collapse: collapse;
+   display: flex;
+   align-items: center;
+   justify-content : flex-end;
+   font-size: 16px;
+}
+
+.CollectionImg div img{
+   height: 320Px;
+   width: 240.5px;
+}
+
+.CollectionImg{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin-left: 45px;
+   margin-right: 45px;
+
+}
+
+.PicturesqueCafe{
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%), url(./resources/picturrsque-cafe-Img1-collection.jpg);
+   border-radius: 0.6rem;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: left;
+   
+}
+
+.FamilyCafe{
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%), url(./resources/Family-cafe-img2.jpg);
+   border-radius: 0.6rem;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: left;
+}
+
+.ThemeCafe{
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%), url(./resources/Theme-cafe-img3.jpg);
+   border-radius: 0.6rem;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: left;
+}
+
+.WorldCuisines{
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%), url(./resources/World-Cuisines-Img3.jpg);
+   border-radius: 0.6rem;
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   justify-content: left;
+
+}
+
+.PicturesqueCafeText {
+   height: 320px;
+   width: 245px;
+   padding-top: 270px ;
+   padding-left: 20px;
+}
+
+
+
+.FamilyCafeText{
+   height: 320px;
+   width: 245px;
+   padding-top: 270px ;
+   padding-left: 20px;
+}
+
+.ThemeCafeText{
+   height: 320px;
+   width: 245px;
+   padding-top: 270px ;
+   padding-left: 20px;
+}
+
+.WorldCuisinesText{
+   height: 320px;
+   width: 245px;
+   padding-top: 270px ;
+   padding-left: 20px;
+}
+
+.localitiesHead h3  {
+   margin-left: 105px;
+   margin-top: 90px;
+   font-size: 36px;
+   color: rgba(36, 36, 36, 0.788);
+   font-smooth: smooth;
+   
+}
+
+.localitiesHead span  {
+   font-size: 36px;
+   color: rgba(12, 11, 11, 0.993);
+   font-weight: 1000px;
+}
+
+.Grid{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.Location1{
+   margin-top: 45px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.Location2{
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.Location3{
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.CP{
+   height: 80px;
+   width: 356px;
+   color: rgb(36, 36, 36);
+   border-style: solid;
+   border-color: rgb(232, 232, 232);
+   border-radius: 0.8rem;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 25px;
+}
+.CPtext{
+   color: rgb(36, 36, 36); 
+   font-size: 18px;
+   font-weight: 100px;
+   font-stretch: extra-expanded;
+   padding-top: 60px;
+   padding-left: 30px;
+   display:block;
+}
+
+.CPtext div{
+   box-sizing: border-box;
+   color: rgb(36, 36, 36); 
+   font-size: 16px;
+   padding-bottom: 80px;
+   font-stretch: extra-expanded;
+   
+}
+
+
+#CParrow{
+   color:  rgb(36, 36, 36); 
+   padding-left: 300px;
+   padding-bottom: 80px;
+   
+}
+
+
+.Sec29{
+   height: 80px;
+   width: 356px;
+   color: rgb(36, 36, 36);
+   border-style: solid;
+   border-color: rgb(232, 232, 232);
+   border-radius: 0.8rem;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 25px;
+}
+.Sec29text{
+   color: rgb(36, 36, 36); 
+   font-size: 18px;
+   font-weight: 100px;
+   font-stretch: extra-expanded;
+   padding-top: 60px;
+   padding-left: 30px;
+   display:block;
+}
+
+.Sec29text div{
+   box-sizing: border-box;
+   color: rgb(36, 36, 36); 
+   font-size: 16px;
+   padding-bottom: 80px;
+   font-stretch: extra-expanded;
+   
+}
+
+
+#Sec29arrow{
+   color:  rgb(36, 36, 36); 
+   padding-left: 200px;
+   padding-bottom: 80px;
+   
+}
+
+
+.Sec18Noida{
+   height: 80px;
+   width: 356px;
+   color: rgb(36, 36, 36);
+   border-style: solid;
+   border-color: rgb(232, 232, 232);
+   border-radius: 0.8rem;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 25px;
+}
+.Sec18Noidatext{
+   color: rgb(36, 36, 36); 
+   font-size: 18px;
+   font-weight: 100px;
+   font-stretch: extra-expanded;
+   padding-top: 60px;
+   padding-left: 30px;
+   display:block;
+}
+
+.Sec18Noidatext div{
+   box-sizing: border-box;
+   color: rgb(36, 36, 36); 
+   font-size: 16px;
+   padding-bottom: 80px;
+   font-stretch: extra-expanded;
+   
+}
+
+
+#Sec18Noidaarrow{
+   color:  rgb(36, 36, 36); 
+   padding-left: 300px;
+   padding-bottom: 80px;
+   
+}
+
+
+.RajouriGarden{
+   height: 80px;
+   width: 356px;
+   color: rgb(36, 36, 36);
+   border-style: solid;
+   border-color: rgb(232, 232, 232);
+   border-radius: 0.8rem;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 25px;
+}
+.RajouriGardentext{
+   color: rgb(36, 36, 36); 
+   font-size: 18px;
+   font-weight: 100px;
+   font-stretch: extra-expanded;
+   padding-top: 60px;
+   padding-left: 30px;
+   display:block;
+}
+
+.RajouriGardentext div{
+   box-sizing: border-box;
+   color: rgb(36, 36, 36); 
+   font-size: 16px;
+   padding-bottom: 80px;
+   font-stretch: extra-expanded;
+   
+}
+
+
+#RajouriGardenarrow{
+   color:  rgb(36, 36, 36); 
+   padding-left: 300px;
+   padding-bottom: 80px;
+   
+}
+
+
+.Saket{
+   height: 80px;
+   width: 356px;
+   color: rgb(36, 36, 36);
+   border-style: solid;
+   border-color: rgb(232, 232, 232);
+   border-radius: 0.8rem;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 25px;
+}
+.Sakettext{
+   color: rgb(36, 36, 36); 
+   font-size: 18px;
+   font-weight: 100px;
+   font-stretch: extra-expanded;
+   padding-top: 60px;
+   padding-left: 30px;
+   display:block;
+}
+
+.Sakettext div{
+   box-sizing: border-box;
+   color: rgb(36, 36, 36); 
+   font-size: 16px;
+   padding-bottom: 80px;
+   font-stretch: extra-expanded;
+   
+}
+
+
+#Saketarrow{
+   color:  rgb(36, 36, 36); 
+   padding-left: 300px;
+   padding-bottom: 80px;
+   
+}
+
+.DLFCyberCity{
+   height: 80px;
+   width: 356px;
+   color: rgb(36, 36, 36);
+   border-style: solid;
+   border-color: rgb(232, 232, 232);
+   border-radius: 0.8rem;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 25px;
+}
+.DLFCyberCitytext{
+   color: rgb(36, 36, 36); 
+   font-size: 18px;
+   font-weight: 100px;
+   font-stretch: extra-expanded;
+   padding-top: 60px;
+   padding-left: 30px;
+   display:block;
+}
+
+.DLFCyberCitytext div{
+   box-sizing: border-box;
+   color: rgb(36, 36, 36); 
+   font-size: 16px;
+   padding-bottom: 80px;
+   font-stretch: extra-expanded;
+   
+}
+
+
+#DLFCyberCityarrow{
+   color:  rgb(36, 36, 36); 
+   padding-left: 300px;
+   padding-bottom: 80px;
+   
+}
+
+
+.GolfCourse{
+   height: 80px;
+   width: 356px;
+   color: rgb(36, 36, 36);
+   border-style: solid;
+   border-color: rgb(232, 232, 232);
+   border-radius: 0.8rem;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 25px;
+}
+.GolfCoursetext{
+   color: rgb(36, 36, 36); 
+   font-size: 18px;
+   font-weight: 100px;
+   font-stretch: extra-expanded;
+   padding-top: 60px;
+   padding-left: 30px;
+   display:block;
+}
+
+.GolfCoursetext div{
+   box-sizing: border-box;
+   color: rgb(36, 36, 36); 
+   font-size: 16px;
+   padding-bottom: 80px;
+   font-stretch: extra-expanded;
+   
+}
+
+
+#GolfCoursearrow{
+   color:  rgb(36, 36, 36); 
+   padding-left: 300px;
+   padding-bottom: 80px;
+   
+}
+
+
+.DLFphase4{
+   height: 80px;
+   width: 356px;
+   color: rgb(36, 36, 36);
+   border-style: solid;
+   border-color: rgb(232, 232, 232);
+   border-radius: 0.8rem;
+   border-width: 1px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 25px;
+}
+.DLFphase4text{
+   color: rgb(36, 36, 36); 
+   font-size: 18px;
+   font-weight: 100px;
+   font-stretch: extra-expanded;
+   padding-top: 60px;
+   padding-left: 30px;
+   display:block;
+}
+
+.DLFphase4text div{
+   box-sizing: border-box;
+   color: rgb(36, 36, 36); 
+   font-size: 16px;
+   padding-bottom: 80px;
+   font-stretch: extra-expanded;
+   
+}
+
+
+#DLFphase4arrow{
+   color:  rgb(36, 36, 36); 
+   padding-left: 300px;
+   padding-bottom: 80px;
+   
+}
+
+.SeeMore{
+   height: 80px;
+   width: 356px;
+   color: rgb(36, 36, 36);
+   border-style: solid;
+   border-color: rgb(232, 232, 232);
+   border-radius: 0.8rem;
+   border-width: 1px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   /* padding-top: 25px; */
+   font-size: 18px;
+   font-weight: 100px;
+   font-stretch: extra-expanded;
+}
+.SeeMoretext{
+   color: rgb(36, 36, 36); 
+   
+   /* padding-top: 60px;
+   padding-left: 30px; */
+   /* display:block; */
+   
+}
+#SeeMorearrow{
+   color:  rgb(36, 36, 36); 
+   /* padding-left: 200px;
+   padding-bottom: 80px; */
+   
+}
+
+
+
